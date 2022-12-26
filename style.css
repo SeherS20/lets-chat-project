@@ -92,3 +92,13 @@ background-image: linear-gradient(to right top, #c75eb0, #8f5bb5);
 {
 	padding-left:5px;color:grey;
 }
+#AddRoom
+{
+color: #c75eb0;
+background-color: ghostwhite;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#room_name{
+	background-color:lightpink;
+	color: darkmagenta;
+}
