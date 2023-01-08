@@ -2,6 +2,8 @@ html, body
 {
   height: 100%;
   margin: 0;
+  font-family: 'Papyrus';
+  font-weight: 700;
 }
 
 body
@@ -11,7 +13,12 @@ background-image: linear-gradient(to right top, #c75eb0, #8f5bb5);
 
 .header
 {
-	color: white;font-family: 'Yeon Sung';font-size: 45px;letter-spacing: 10px;margin-top: 80px;
+	color: white;
+	font-family: 'Papyrus';
+	font-size: 45px;
+	letter-spacing: 10px;
+	margin-top: 80px;
+	font-weight: bold;
 }
 .header img
 {
@@ -94,11 +101,28 @@ background-image: linear-gradient(to right top, #c75eb0, #8f5bb5);
 }
 #AddRoom
 {
-color: #c75eb0;
-background-color: ghostwhite;
+color: white;
+background-color:rgb(92, 4, 86);
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #room_name{
-	background-color:lightpink;
-	color: darkmagenta;
+	background-color:rgb(255, 205, 247);
+	color: rgb(92, 4, 86);
+}
+
+#logout{
+	background-color: rgb(139, 0, 102);
+	color: beige;
+	height: 50px;
+	width: 100px;
+	border-radius: 20px;
+	font-family: 'Papyrus';
+}
+
+#rooms{
+	color: white;
+	font-family: 'Papyrus';
+	font-size: 20px;
+	letter-spacing: 5px;
+	margin-top: 80px;
 }
