@@ -10,15 +10,15 @@ const firebaseConfig = {
 };
   
   // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
+  const app = firebase.initializeApp(firebaseConfig);
 
   user_name = localStorage.getItem("user_name")
-document.getElementById("user_name").innerHTML = "Welcome " + user_name + "!";
+document.getElementById("label_user_name").innerHTML = "Welcome, " + user_name + "!";
 
 function AddRoom() {
       room_name = document.getElementById("room_name").value;
       localStorage.setItem("room_name", room_name)
-      window.location = ""
+      window.location = "ChatPage.html"
       firebase.database().ref("/").child(room_name).update ({
             purpose : "Adding room name"
       })
@@ -35,7 +35,7 @@ getData();
 
 function redirectToRoomName(name) {
       localStorage.setItem("room_name", name)
-      window.location = ""
+      window.location = "ChatPage.html"
 }
 
 function Logout() {

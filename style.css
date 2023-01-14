@@ -126,3 +126,9 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 	letter-spacing: 5px;
 	margin-top: 80px;
 }
+#btnmsg{
+	background-color: pink;
+	width: 200px;
+	height: 30px;
+	border-radius: 40px;
+}
